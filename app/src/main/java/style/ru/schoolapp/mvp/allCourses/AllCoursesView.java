@@ -1,4 +1,4 @@
-package style.ru.schoolapp.view;
+package style.ru.schoolapp.mvp.allCourses;
 
 import com.arellomobile.mvp.MvpView;
 
@@ -9,4 +9,5 @@ import com.arellomobile.mvp.MvpView;
 public interface AllCoursesView extends MvpView {
     public void openSelectedCourse();
     public void openListOfCourse();
+    void openHomeworkFragment();
 }
